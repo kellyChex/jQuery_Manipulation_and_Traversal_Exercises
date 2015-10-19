@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link type="text/css" rel="stylesheet" href="manipulation.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="jquery-2.1.4.js"></script>
+  <script src="manipulation.js"></script>
+
+  <title>jQuery Functions</title>
+</head>
+
+
+
+<body>
+  <div class="container">
+    <h1>jQuery $killz</h1>
+    <p>Click the different buttons to see what jQuery can do.</p>
+
+    <button class="btn btn-inverse" id="erase">Start Over</button>
+
+    <div class="row">
+      <div class="col-md-6">
+
+        <h2>Function</h2>
+          <button class="btn btn-primary" id="prepend">prepend</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" id="append">append</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" id="before">before</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" id="after">after</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" id="remove" data-toggle="tooltip" title="Click here to remove that pesky p.">remove</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" id="selections">selections</button>
+          <br>
+          <br>
+</div>
+      <div class="col-md-6">
+        <h2>Results</h2>
+        <div id="all">
+        <ul class="unstyled" id="ul1">
+          <li>Hello, this is a list item in a ul.</li>
+        </ul>
+        <p id="pExample">This is a p.</p>
+      </div>
+
+
+      <div id="hiddenSelections">
+        <h1 id="h1Example">Click here to select all list items.</h1>
+        <ul class="unstyled" id="ul2">
+          <li id="red">Click here to turn me red</li>
+          <li id="blue">Click here to turn me blue</li>
+          <li id="green">Click here to turn me green</li>
+        </ul>
+      </div>
+      <div id="hiddenSelections2">
+        <h1 id="h2Example">Click here to remove the border.</h1>
+        <ul class="unstyled" id="ul3">
+          <li id="red2">Click here to reset the color</li>
+          <li id="blue2">Click here to reset the color</li>
+          <li id="green2">Click here to reset the color</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+<!--
+  <div class="container2">
+    <h1>Talk to the web page</h1>
+    <p>Click a button to say something to the web page. See what it says back!</p>
+
+    <button class="btn btn-primary" id="hello">Say "hello"</button>
+    <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
+    <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>You said:</h2>
+        <ul class="unstyled" id="user">
+
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <h2>The web page said back:</h2>
+        <ul class="unstyled" id="webpage">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+ -->

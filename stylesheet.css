@@ -1,0 +1,24 @@
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+#eyesOpen {
+  visibility: visible;
+  display: none;
+}
+
+#eyesClosed {
+  visibility: visible;
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: Blue;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}

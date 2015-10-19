@@ -1,0 +1,29 @@
+.container2 {
+  margin-top: 50%;
+  margin-left: 10%;
+}
+
+#hiddenSelections {
+  visibility: hidden;
+  border: none;
+}
+
+#hiddenSelections2 {
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size:2em;
+}
+
+li {
+  font-size: 2em;
+}
